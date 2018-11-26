@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Example28</string>
+    <string name="danish">Danish</string>
+    <string name="player01">Adam</string>
+    <string name="player02">Lee</string>
+    <string name="action_settings">Exit Game</string>
+    <string name="action_settings_Option_two">Save Game</string>
+    <string name="action_settings_Option_three">Score</string>
+    <string name="action_settings_Option_one">Exit Game</string>
+</resources>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.danishali2875170.Assignment02.CustomView
+        android:id="@+id/board"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="2dp" />
+
+
+    <Button
+        android:id="@+id/turn_player"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/board"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="140dp"
+        android:layout_marginLeft="140dp"
+        android:layout_marginBottom="-495dp"
+        android:clickable="false"
+        android:textSize="10pt"
+        android:textStyle="italic" />
+
+    <ImageButton
+        android:id="@+id/smileys_match"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/board"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginBottom="-555dp"
+        android:clickable="false"
+        android:textSize="10pt"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/Clicks"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/board"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginBottom="-621dp"
+        android:clickable="false"
+        android:textSize="8pt"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/Player02_score"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="104dp"
+        android:layout_height="162dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="3dp"
+        android:clickable="false"
+        android:textSize="30pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Player02"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="104dp"
+        android:layout_height="300dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="left"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginBottom="3dp"
+        android:clickable="false"
+        android:textSize="8pt"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/Player01_score"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="104dp"
+        android:layout_height="162dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="3dp"
+        android:clickable="false"
+        android:textSize="30pt"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/Player01"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="104dp"
+        android:layout_height="300dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="right"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="3dp"
+        android:clickable="false"
+        android:text="Adam"
+        android:textSize="8pt"
+        android:textStyle="italic" />
+
+
+
+
+</RelativeLayout>
